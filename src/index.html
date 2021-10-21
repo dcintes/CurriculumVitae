@@ -1,23 +1,135 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <div class="uoc-container">
-      <img src="./assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
-    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+  <title>Curriculum Vitae Domènec Cintes</title>
+</head>
+
+<body>
+  <main>
+    <article class="layout">
+      <section class="name">
+
+        <img src="assets/images/cv.JPG" alt="Foto Domènec Cintes" class="name__image">
+
+        <h1>
+          Domènec Cintes Sastre
+          <span class="subtitle">Informàtic</span>
+        </h1>
+
+        <a href="https://es.linkedin.com/in/dom%C3%A8nec-cintes-sastre-705154128" target="_blank"
+          title="Linkedin Domènec Cintes Sastre">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill:#0866c2;">
+            <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+          </svg>
+        </a>
+
+      </section>
+
+      <section id="about">
+        <h2 class="layout__title">Sobre jo</h2>
+        <div class="layout__content">
+          <p>Creativitat, integritat, alt nivell d'implicació en la feina, responsabilitat, capacitat de fer feina
+            en equip, capacitat d'adaptació al canvis, minuciositat, agilitat, nivell alt d'observació.</p>
+
+          <div class="separador"></div>
+
+          <ul class="llista-valor">
+            <li class="llista-valor__element">
+              <span class="material-icons">person</span>
+              Edat
+              <span class="llista-valor__valor">32</span>
+            </li>
+            <li class="llista-valor__element">
+              <span class="material-icons">location_on</span>
+              Població
+              <span class="llista-valor__valor">Porreres</span>
+            </li>
+            <li class="llista-valor__element">
+              <span class="material-icons">phone_android</span>
+              Telèfon
+              <span class="llista-valor__valor">600 100 200</span>
+            </li>
+            <li class="llista-valor__element">
+              <span class="material-icons">email</span>
+              Correu
+              <span class="llista-valor__valor">dcintes@uoc.edu</span>
+            </li>
+          </ul>
+
+          <div class="separador"></div>
+
+          <h3>Idiomes</h3>
+
+          <ul class="llista-valor">
+            <li class="llista-valor__element">
+              <span class="material-icons">check</span>
+              Espanyol
+            </li>
+            <li class="llista-valor__element">
+              <span class="material-icons">check</span>
+              Catala
+              <span class="llista-valor__valor">C1</span>
+            </li>
+            <li class="llista-valor__element">
+              <span class="material-icons">check</span>
+              Angles
+              <span class="llista-valor__valor">B1</span>
+            </li>
+          </ul>
+
+          <div class="separador"></div>
+
+        </div>
+
+      </section>
+
+      <section id="exp">
+        <h2 class="layout__title">Experiencia</h2>
+        <div class="layout__content">
+          <ul class="timeline">
+            <li class="timeline__element timeline__element--primary">
+              <div class="timeline__date">2007 - 2009</div>
+              <div class="timeline__title">Cicle formatiu Superior: Administració de Sistemes Informàtics</div>
+            </li>
+            <li class="timeline__element timeline__element--secondary">
+              <div class="timeline__date">2009 (6 mesos)</div>
+              <div class="timeline__title">XD NET SISTEMES DIGITALS</div>
+            </li>
+            <li class="timeline__element timeline__element--primary">
+              <div class="timeline__date">2010 - 2015</div>
+              <div class="timeline__title">Grau en enginyeria informàtica. UNED</div>
+            </li>
+            <li class="timeline__element timeline__element--secondary">
+              <div class="timeline__date">2015 - 2018</div>
+              <div class="timeline__title">3 Digits</div>
+            </li>
+            <li class="timeline__element timeline__element--secondary">
+              <div class="timeline__date">2018 - </div>
+              <div class="timeline__title">Conselleria Afers Socials i Esports. CAIB</div>
+            </li>
+            <li class="timeline__element timeline__element--primary">
+              <div class="timeline__date">2020 - </div>
+              <div class="timeline__title">Master en Desenvolupament d'aplicacions web. UOC</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2 class="layout__title">Habilitats</h2>
+        <div class="layout__content">
+          <div id="chart"></div>
+      </section>
+
+    </article>
+  </main>
+</body>
+<script src="assets/scripts/main.js"></script>
+
 </html>
